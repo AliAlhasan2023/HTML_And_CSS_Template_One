@@ -16,8 +16,6 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Cairo", sans-serif;
-  font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -56,7 +54,6 @@ html {
 
 /* Start Cpmponents */
 .special-heading {
-  font-size: 100px;
   color: #ebeced;
   text-align: center;
   font-weight: 800;
@@ -237,9 +234,6 @@ html {
   .services .service-content .srv {
     flex-direction: column;
     text-align: center;
-  }
-  .image-image-column {
-    display: none;
   }
 }
 .services .service-content .srv i {
@@ -425,7 +419,7 @@ html {
   margin-top: 20px;
   font-size: 16px;
 }
-.contact .info i {
+.contact .info .social i {
   margin-left: 10px;
   color: var(--secondary-color);
 }
